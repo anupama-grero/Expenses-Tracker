@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.ExpensesTracker" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/accent</item>
+        <item name="colorOnPrimaryContainer">@color/primaryDark</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryBlue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/accent</item>
+        <item name="colorOnSecondaryContainer">@color/primaryDark</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primaryDark</item>
+
+        <!-- Background/Surface colors. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Material3.HeadlineLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Material3.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Material3.BodyLarge</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.ExpensesTracker.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:statusBarColor">@color/primaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Rounded Components Style -->
+    <style name="ShapeAppearance.ExpensesTracker.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">@dimen/corner_radius_medium</item>
+    </style>
+
+    <style name="Widget.ExpensesTracker.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="shapeAppearance">@style/ShapeAppearance.ExpensesTracker.MediumComponent</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="Widget.ExpensesTracker.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.ExpensesTracker.MediumComponent</item>
+    </style>
+
+    <!-- Custom FAB Style -->
+    <style name="ShapeAppearance.ExpensesTracker.Fab" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Widget.ExpensesTracker.Fab" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearance">@style/ShapeAppearance.ExpensesTracker.Fab</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/white</item>
+    </style>
+</resources>

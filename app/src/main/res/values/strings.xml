@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ExpensesTracker</string>
+    <string name="tagline">Track. Manage. Save.\nYour expenses, your way.</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="monthly_expenses">Monthly Expenses</string>
+    <string name="today_expenses">Today\'s Expenses</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="edit_expense">Edit Expense</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="expense_name">Expense Name</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="hello_user">Hello, User!</string>
+    <string name="no_salary_set">No salary set</string>
+    <string name="not_available">N/A</string>
+
+    <!-- Reset Data -->
+    <string name="reset_app_data">Reset App Data</string>
+    <string name="reset_app_data_desc">Delete all expenses, salary records, and saved financial data</string>
+    <string name="reset_app_data_title">Reset App Data?</string>
+    <string name="reset_app_data_message">This will permanently delete all your saved expenses, salary records, and financial data. This action cannot be undone.</string>
+    <string name="reset">RESET</string>
+    <string name="reset_success">All app data has been reset.</string>
+    <string name="reset_error">Unable to reset app data. Please try again.</string>
+</resources>
